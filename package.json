@@ -1,52 +1,52 @@
 {
-  "name": "skill-sdk-nodejs",
-  "version": "0.0.18",
-  "description": "This is the SDK to be used when developing a skill for Watson Assistant Solutions using Node.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec test/**.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs.git"
-  },
-  "keywords": [
-    "watson",
-    "assistant",
-    "skill",
-    "sdk"
-  ],
-  "dependencies": {
-    "app-root-path": "^2.0.1",
-    "async": "2.0.0-rc.6",
-    "bluebird": "^3.4.1",
-    "dotenv": "^4.0.0",
-    "express": "^4.12.3",
-    "express-cluster": "0.0.5",
-    "i18next": "^7.0.1",
-    "i18next-sprintf-postprocessor": "^0.2.2",
-    "morgan": "^1.8.1",
-    "numbered": "^1.0.0",
-    "object-hash": "^1.1.8",
-    "os": "^0.1.1",
-    "promise-reflect": "^1.1.0",
-    "swagger-express-mw": "^0.7.0",
-    "swagger-tools": "^0.10.1",
-    "watson-developer-cloud": "^3.13.0",
-    "winston": "^2.3.1",
-    "xregexp": "^3.1.1",
-    "wa-context-utils": "^0.0.3"
-  },
-  "devDependencies": {
-    "mocha": "^3.2.0",
-    "chai": "^3.5.0",
-    "should": "^7.1.0",
-    "supertest": "^1.0.0"
-  },
-  "author": "Dean Haber <deanhaber@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs/issues"
-  },
-  "homepage": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs#readme"
+    "license": "ISC", 
+    "name": "skill-sdk-nodejs", 
+    "repository": {
+        "url": "git+https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs.git", 
+        "type": "git"
+    }, 
+    "author": "Dean Haber <deanhaber@gmail.com>", 
+    "bugs": {
+        "url": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs/issues"
+    }, 
+    "version": "0.0.19", 
+    "dependencies": {
+        "numbered": "^1.0.0", 
+        "xregexp": "^3.1.1", 
+        "app-root-path": "^2.0.1", 
+        "i18next-sprintf-postprocessor": "^0.2.2", 
+        "swagger-express-mw": "^0.7.0", 
+        "express": "^4.12.3", 
+        "object-hash": "^1.1.8", 
+        "express-cluster": "0.0.5", 
+        "swagger-tools": "^0.10.1", 
+        "i18next": "^7.0.1", 
+        "watson-developer-cloud": "^3.13.0", 
+        "promise-reflect": "^1.1.0", 
+        "morgan": "^1.8.1", 
+        "dotenv": "^4.0.0", 
+        "async": "2.0.0-rc.6", 
+        "wa-context-utils": "^0.0.3", 
+        "os": "^0.1.1", 
+        "bluebird": "^3.4.1", 
+        "winston": "^2.3.1"
+    }, 
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec test/**.js"
+    }, 
+    "keywords": [
+        "watson", 
+        "assistant", 
+        "skill", 
+        "sdk"
+    ], 
+    "devDependencies": {
+        "should": "^7.1.0", 
+        "chai": "^3.5.0", 
+        "supertest": "^1.0.0", 
+        "mocha": "^3.2.0"
+    }, 
+    "main": "index.js", 
+    "homepage": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs#readme", 
+    "description": "This is the SDK to be used when developing a skill for Watson Assistant Solutions using Node.js"
 }
