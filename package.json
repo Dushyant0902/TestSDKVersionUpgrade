@@ -1,6 +1,6 @@
 {
     "license": "ISC", 
-    "name": "skill-sdk-nodejs", 
+    "name": "d-sdk-nodejs", 
     "repository": {
         "url": "git+https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs.git", 
         "type": "git"
