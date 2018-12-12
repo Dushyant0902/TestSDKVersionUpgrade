@@ -9,7 +9,7 @@
     "bugs": {
         "url": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs/issues"
     }, 
-    "version": "0.0.43", 
+    "version": "0.0.44", 
     "dependencies": {
         "numbered": "^1.0.0", 
         "xregexp": "^3.1.1", 
@@ -19,6 +19,7 @@
         "express": "^4.12.3", 
         "object-hash": "^1.1.8", 
         "express-cluster": "0.0.5", 
+        "bluebird": "^3.4.1", 
         "swagger-tools": "^0.10.1", 
         "i18next": "^7.0.1", 
         "watson-developer-cloud": "^3.13.0", 
@@ -26,9 +27,8 @@
         "morgan": "^1.8.1", 
         "dotenv": "^4.0.0", 
         "async": "2.0.0-rc.6", 
-        "wa-context-utils": "^0.0.3", 
         "os": "^0.1.1", 
-        "bluebird": "^3.4.1", 
+        "wa-context-utils": "^0.0.3", 
         "winston": "^2.3.1"
     }, 
     "scripts": {
@@ -41,10 +41,10 @@
         "sdk"
     ], 
     "devDependencies": {
-        "should": "^7.1.0", 
+        "mocha": "^3.2.0", 
         "chai": "^3.5.0", 
         "supertest": "^1.0.0", 
-        "mocha": "^3.2.0"
+        "should": "^7.1.0"
     }, 
     "main": "index.js", 
     "homepage": "https://github.com/Watson-Personal-Assistant/skill-sdk-nodejs#readme", 
